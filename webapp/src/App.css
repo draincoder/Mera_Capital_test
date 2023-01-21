@@ -1,0 +1,38 @@
+.App {
+  /* min-height: 200vh; */
+  /* height: fit-content; */
+  width: 100vw;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 50px;
+  overflow: hidden;
+}
+
+.LineChart {
+  width: calc(100vw - 200px);
+}
+.LineChart2 {
+  width: calc(100vw - 200px);
+  height: fit-content;
+  margin-bottom: 50px;
+}
+
+.TimeSelect {
+  width: calc(100vw - 200px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.DateFrom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 15px;
+}
